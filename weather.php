@@ -28,7 +28,7 @@ if (($json->apiKey ?? '') != SWTH_API_KEY) {
 
 $zip = '';
 
-// Find the zip code. Chat is sent LIFO, so the first attribute you find is the most recent from the texter.
+// Find the zip code. Chat is sent FIFO, so looping through gets the latest.
 $chat = $json->chat ?? [];
 foreach ($chat as $c) {
   switch ($c->attribute) {
