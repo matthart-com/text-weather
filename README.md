@@ -13,3 +13,5 @@ This project shows how to setup a script with a "zip code" attribute and call a 
 6. Update the script in SWTH with your Webhook endpoint.
 
 To test it, start an application in your SWTH account and then switch to the weather script. It also works if the weather script your default.
+
+![example](https://github.com/matthart-com/text-weather/blob/main/text-weather.jpeg?raw=true)
