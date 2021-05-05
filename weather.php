@@ -4,7 +4,7 @@
  * Text-Weather - A PHP back end for returning weather information
  * for a ZIP code received from an app.smarterwaytohire.com webhook.
  *
- * @package  weather-text
+ * @package  text-weather
  * @author   Matt Hart <matt@smarterwaytohire.com>
  */
 
